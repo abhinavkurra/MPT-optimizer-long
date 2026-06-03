@@ -1,4 +1,4 @@
-# 📈 Long-Only Modern Portfolio Optimisation (MPO) — Indian Equities
+# Long-Only Modern Portfolio Optimisation (MPO) — Indian Equities
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -14,7 +14,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Project Overview](#-project-overview)
 - [Mathematical Foundation](#-mathematical-foundation)
@@ -47,7 +47,7 @@ Modern Portfolio Theory (MPT), introduced by Harry Markowitz in 1952, provides a
 
 ---
 
-## 📐 Mathematical Foundation
+## Mathematical Foundation
 
 ### 1. Returns & Covariance
 
@@ -82,7 +82,7 @@ The problem is solved by `scipy.optimize.minimize` as a **minimisation of the ne
 
 ---
 
-## 🏦 Asset Universe
+## Asset Universe
 
 Seven large-cap NSE-listed equities spanning multiple high-growth sectors of the Indian economy:
 
@@ -101,7 +101,7 @@ Seven large-cap NSE-listed equities spanning multiple high-growth sectors of the
 
 ---
 
-## 🏆 Optimal Portfolio Results
+## Optimal Portfolio Results
 
 > All figures below are sourced directly from the project's actual output files —
 > `optimal_allocation.html`, `cumulative_performance.html`, `efficient_frontier.html`,
@@ -165,7 +165,7 @@ Values read directly from `correlation_heatmap.png`:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 mpo-indian-equities/
@@ -185,7 +185,7 @@ mpo-indian-equities/
 
 ---
 
-## ⚙️ Requirements & Installation
+## Requirements & Installation
 
 ### Prerequisites
 
@@ -229,7 +229,7 @@ scipy>=1.11.0
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Run as a Python Script
 
@@ -289,7 +289,7 @@ jupyter lab
 
 ---
 
-## 🏗️ Code Architecture
+## Code Architecture
 
 The script follows a strict **linear pipeline** with an **OOP core**:
 
@@ -351,7 +351,7 @@ Ann. μ (×252)    Ann. Σ (×252)      corr matrix
 
 ---
 
-## 📊 Outputs & Visualisations
+## Outputs & Visualisations
 
 ### 1 — Correlation Heatmap (`correlation_heatmap.png`)
 
@@ -383,7 +383,7 @@ $$V_t = \prod_{\tau=1}^{t}\!\Bigl(1 + \textstyle\sum_{i} w_i^{*} \cdot r_{i,\tau
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 All parameters are defined in the `Constants` block at the top of `main.py`:
 
@@ -423,7 +423,7 @@ RISK_FREE_RATE = 0.05
 
 ---
 
-## 📖 Results Interpretation
+## Results Interpretation
 
 ### Why BHARTIARTL dominates at 67.09%
 
@@ -448,7 +448,7 @@ Their mutual correlation of **0.50** is among the two highest in the matrix. Hol
 
 ---
 
-## ⚠️ Limitations & Disclaimer
+## Limitations & Disclaimer
 
 > **This project is for educational and research purposes only. It does not constitute financial advice. Past performance is not indicative of future results.**
 
@@ -474,13 +474,13 @@ Their mutual correlation of **0.50** is among the two highest in the matrix. Hol
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - **Harry Markowitz** — Nobel Laureate, father of Modern Portfolio Theory (1952)
 - **[yfinance](https://github.com/ranaroussi/yfinance)** — NSE market data retrieval
@@ -491,5 +491,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ---
 
 <p align="center">
-  Built with 🐍 Python &nbsp;|&nbsp; Quantitative Finance &nbsp;|&nbsp; NSE Indian Equities &nbsp;|&nbsp; Jan 2022 – Jan 2026
+  Built with Python &nbsp;|&nbsp; Quantitative Finance &nbsp;|&nbsp; NSE Indian Equities &nbsp;|&nbsp; Jan 2022 – Jan 2026
 </p>
