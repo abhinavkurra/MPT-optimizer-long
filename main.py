@@ -28,9 +28,9 @@ TICKERS = [
     'RELIANCE.NS', 'HDFCBANK.NS', 'BHARTIARTL.NS',
     'SBIN.NS', 'ICICIBANK.NS', 'TCS.NS', 'LT.NS'
 ]
-START_DATE        = '2019-01-01'
-END_DATE          = '2025-01-01'
-RISK_FREE_RATE    = 0.06          # 6% annualised (Indian T-bill proxy)
+START_DATE        = '2022-01-01'
+END_DATE          = '2026-01-01'
+RISK_FREE_RATE    = 0.06          # 6% ansnualised (Indian T-bill proxy)
 TRADING_DAYS      = 252           # Standard annualisation factor
 WEIGHT_THRESHOLD  = 0.001         # Drop weights below 0.1%
 RANDOM_SEED       = 42
