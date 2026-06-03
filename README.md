@@ -32,7 +32,7 @@
 
 ---
 
-## 🔭 Project Overview
+## Project Overview
 
 Modern Portfolio Theory (MPT), introduced by Harry Markowitz in 1952, provides a mathematical framework for assembling a portfolio of assets such that **expected return is maximised for a given level of risk**. This project implements the **Maximum Sharpe Ratio** variant — the tangency portfolio — which yields the single best risk-adjusted allocation from the efficient frontier.
 
